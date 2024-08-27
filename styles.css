@@ -14,7 +14,7 @@
 
 
 body {
-    background-color: rgb(207, 200, 101);
+    background-color: #bfefff;
         font-family: "DM Serif Text", sans-serif;
         align-items: center;
         justify-content: center;
@@ -60,7 +60,7 @@ header {
 
 #links a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1.2rem;
     border-bottom: 3px solid transparent;
     border-radius: 6px;
@@ -73,9 +73,13 @@ header {
     transform: scale(1.0);
 }
 
-h1,h2,p{
+h1,h2 {
    text-align: center;
    padding-left: 20px;
+}
+
+p {
+    text-align: justify;
 }
 
 #index.html {
@@ -187,7 +191,7 @@ form {
 .textoneon1 {
     color: #ffffff;
     font-size: 16px;
-    text-align: center;
+    text-align: justify;
     text-shadow: 1vw 1vw 1vw #000, 0 0 2vw #4d2370, 0 0 2vw #4d2370, 0 0 2vw #4d2370;
 }
 
@@ -227,7 +231,7 @@ form {
     box-shadow: 0 4px 8px rgb(255, 255, 255)
 }
 
-.outfit {
+.personagem {
     display: grid;
     gap: 10px;
     justify-content: center;
@@ -250,7 +254,14 @@ h4 {
     justify-content: center;
 }
 
+.texto {
+    text-align: justify;
+    margin-right: auto;
 
+    width: 200%;
+    line-height: 1.2rem;
+
+}
 
 
 
